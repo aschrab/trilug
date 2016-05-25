@@ -1,0 +1,25 @@
+# Site settings
+title: "Triangle Linux Users Group"
+name: "[TriLUG] Triangle Linux Users Group"
+url: "http://104.196.106.71"
+email: trilug@trilug.org
+description: "Linux Users Group serving Raleigh, Durham, Chapel Hill and RTP"
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: trilug  # Twitter ID
+github_username:  trilug # Github ID
+weibo_username:   # Weibo ID
+facebook_username:   # Facebook ID
+duoshuo_username:  # Duoshuo ID
+baidushare_id:  #
+baidutongji_id:  #
+google-analytics_id:   # Google Analytics ID
+rss_url: "/feed.xml"  # RSS URL
+logo_image: "/images/logo.png"  # LOGO
+# Build settings
+gems: [jekyll-paginate]
+markdown: rdiscount
+highlighter: pygments
+permalink: /:title/
+paginate: 8
+paginate_path: page/:num
+ 
